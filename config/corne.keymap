@@ -61,7 +61,6 @@
                 key-positions = <24 35>;
                 bindings = <&kt CAPSLOCK>;
                 slow-release;                 // Allow for asynchronous key releases
-                global-quick-tap-ms = <150>;  // Prevent accidental activation during fast typing
             };
     };
 };
