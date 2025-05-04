@@ -57,10 +57,9 @@
             compatible = "zmk,combos";
 
             combo_caps {
-                timeout-ms = <100>;
+                timeout-ms = <50>;
                 key-positions = <24 35>;
                 bindings = <&kt CAPSLOCK>;
-                slow-release;                 // Allow for asynchronous key releases
             };
     };
 };
