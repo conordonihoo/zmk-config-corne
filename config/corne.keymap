@@ -58,7 +58,7 @@
 
             combo_caps {
                 timeout-ms = <50>;
-                key-positions = <LSHIFT_POSITION RSHIFT_POSITION>;
+                key-positions = <24 35>;
                 bindings = <&kt CAPSLOCK>;
             };
     };
